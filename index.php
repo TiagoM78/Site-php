@@ -8,7 +8,7 @@
 	<body>
 
 	<p>
-		<a href="bonjour.php?nom=Monteiro&amp;prenom=Tiago">Dis-moi bonjour</a>
+		<a href="bonjour2.php?nom=Monteiro&amp;prenom=Tiago">Dis-moi bonjour</a>
 	</p>
 
 	</body>
