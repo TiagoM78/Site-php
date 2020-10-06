@@ -18,21 +18,20 @@
 	<form action="cible.php" method="post">
 	<p>	
     	<input type="text" name="prenom-nom" />
-    	<input type="submit" value="Valider" />
+	<select name="choix">
+    		<option value="France">France</option>
+    		<option value="Amérique">Amérique</option>
+    		<option value="Chine">Chine</option>
+    		<option value="Afrique">Afrique</option>
+   		<input type="checkbox" name="case" id="case" /> <label for="case">Célibataire</label>
+		<input type="checkbox" name="case" id="case" /> <label for="case">Marier</label>
+    <input type="submit" value="Valider" />
+
+	</select>
 	</p>
 	</form>
 
-	<form action="cible.php" method="post">
-	<select name="choix">
-    	<option value="France">France</option>
-    	<option value="Amérique">Amérique</option>
-    	<option value="Chine">Chine</option>
-    	<option value="Afrique">Afrique</option>
-    	<input type="submit" value="Valider" />
-	</select>
 
-	<input type="checkbox" name="case" id="case" /> <label for="case">Célibataire</label>
-	<input type="checkbox" name="case" id="case" /> <label for="case">Marier</label>
 
 	</body>
 </html>
