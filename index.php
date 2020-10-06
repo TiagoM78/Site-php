@@ -12,21 +12,23 @@
 	</p>
 	<p>
     Cette page ne contient que du HTML.<br />
-    Veuillez taper votre prénom :
+    Veuillez taper votre prénom et nom de famille :
 	</p>
 
 	<form action="cible.php" method="post">
 	<p>	
-    	<input type="text" name="prenom" />
+    	<input type="text" name="prenom-nom" />
     	<input type="submit" value="Valider" />
 	</p>
 	</form>
 
+	<form action="cible.php" method="post">
 	<select name="choix">
-    	<option value="choix1">Choix 1</option>
-    	<option value="choix2">Choix 2</option>
-    	<option value="choix3">Choix 3</option>
-    	<option value="choix4">Choix 4</option>
+    	<option value="France">France</option>
+    	<option value="Amérique">Amérique</option>
+    	<option value="Chine">Chine</option>
+    	<option value="Afrique">Afrique</option>
+    	<input type="submit" value="Valider" />
 	</select>
 
 	<input type="checkbox" name="case" id="case" /> <label for="case">Célibataire</label>
