@@ -15,4 +15,6 @@
 		echo '<p>Vous n\'êtes donc pas un gamer</p>';
 	}
 	?>
+
+<p>Vous habitez donc en <? echo htmlspecialchars($_POST['choix']); ?> !</p>
 </html>

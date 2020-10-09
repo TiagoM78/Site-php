@@ -33,8 +33,18 @@
     		<br />
 
         	<textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea>
-  
-		</form>
+        </p>
+	</form>
 
+	<form action="cible.php" method="post">
+		<p><label>Où habitez-vous ?</label>
+		<select name="choix">
+    		<option value="France">France</option>
+    		<option value="Amérique">Amérique</option>
+    		<option value="Afrique">Afrique</option>
+    		<option value="Chine">Chine</option>
+		</select>
+		<p><input type="submit" /></p>	
+		</p>
 	</body>
 </html>
