@@ -8,7 +8,7 @@
 	<body>
 
 	<p>
-		<a href="bonjour2.php?nom=Monteiro&amp;prenom=Tiago">Dis-moi bonjour</a>
+		<a href="formulaire.php">Liens vers les codes de la NASA</a>
 	</p>
 	<p>
     Cette page ne contient que du HTML.<br />
