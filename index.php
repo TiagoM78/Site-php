@@ -15,30 +15,26 @@
     Veuillez taper votre prénom et nom de famille :
 	</p>
 
-	<form action="cible.php" method="post">
-	<p>	
-    	<input type="text" name="prenom-nom" />
-
-	<select name="choix">
-    		<option value="France">France</option>
-    		<option value="Amérique">Amérique</option>
-    		<option value="Chine">Chine</option>
-    		<option value="Afrique">Afrique</option>
-
-   		<input type="checkbox" name="case" id="case" /> <label for="case">Célibataire</label>
-		<input type="checkbox" name="case" id="case" /> <label for="case">Marier</label>
-
-		Aimez-vous les frites ?
-		<input type="radio" name="frites" value="vous aimez" id="vous aimez" checked="checked" /> <label for="vous aimez">Vous aimez</label>
-		<input type="radio" name="frites" value="vous n'aimez pas" id="vous n'aimez pas" /> <label for="vous n'aimez pas">vous n'aimez pas</label>
-
-    <input type="submit" value="Valider" />
-
-	</select>
-	</p>
+	<form action="cible.php" method="post">	
+    	<p><label>Prenom : <input type="text" name="prenom" /></label></p>
+    	<p><input type="submit" /></p>
 	</form>
 
+	<form action="cible.php" method="post">	
+    	<p><label>Jouer vous au jeux vidéos ?<input type="checkbox" name="gamer" /></label></p>
+    	<p><input type="submit" /></p>
+	</form>
+	
+	<form action="cible.php" method="post">	
+		<p>
+    		<label for="ameliorer">
+    		Comment pensez-vous que je pourrais améliorer mon site ?
+    	    </label>
+    		<br />
 
+        	<textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea>
+  
+		</form>
 
 	</body>
 </html>

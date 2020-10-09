@@ -3,12 +3,16 @@
 
 <p>Bonjour !</p>
 
-<p>Je sais comment tu t'appelles, hé hé. Tu t'appelles <?php echo htmlspecialchars($_POST['prenom-nom']); ?> tu viens de <? echo htmlspecialchars($_POST['choix']); ?> !</p>
+<p>Je sais comment tu t'appelles, hé hé. Tu t'appelles <?php echo htmlspecialchars($_POST['prenom']); ?> !</p>
 
-<p>Tu est donc <?php echo htmlspecialchars($_POST['case']); ?> couple !</p>
-
-<p>Donc <? echo htmlspecialchars($_POST['frites']); ?> les frites !</p>
-
-<p>Si tu veux changer de prénom, <a href="index.php">clique ici</a> pour revenir à la page formulaire.php.</p>
-
+	<?php 
+	if (isset($_POST['gamer']))
+	{
+		echo '<p>Vous êtes un gamer</p>';
+	}
+	else
+	{
+		echo '<p>Vous n\'êtes donc pas un gamer</p>';
+	}
+	?>
 </html>
